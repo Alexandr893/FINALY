@@ -1,0 +1,76 @@
+.flexbogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.d-left{
+ 
+}
+.p-top{
+    padding-top: 70px;
+    padding-bottom: 180px;
+    
+}
+.d-title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.d-right{
+    padding-top: 20px;
+}
+
+.stroke{
+    display: flex;
+}
+
+.inn{
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+span{
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #3a416f;
+}
+.ogrn{
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+
+.kpp{
+    display: flex;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+}
+
+.adress{
+    padding-top: 60px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 137%;
+    letter-spacing: 0.02em;
+    color:#17ad37;
+}

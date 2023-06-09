@@ -1,0 +1,56 @@
+:root {
+    --bs-gradient-dark-right: #141727;
+    --bs-gradient-dark-left: #3a416f;
+  }
+  
+
+.modal{
+
+height: 100vh;
+width: 100wh;
+background-color: rgba(0,0,0,0.4);
+position: fixed;
+top:0;
+left:0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+pointer-events: none;
+transition: 0.5s;
+}
+
+.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-content{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+    width: 40vw;
+  
+    }   
+
+.modal-btn{
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1.4;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-box-shadow: 4px 5px 31px 0px rgba(34, 60, 80, 0.18);
+-moz-box-shadow: 4px 5px 31px 0px rgba(34, 60, 80, 0.18);
+box-shadow: 4px 5px 31px 0px rgba(34, 60, 80, 0.18);
+    cursor: pointer;
+    user-select: none;
+    background-image: linear-gradient(310deg, var(--bs-gradient-dark-right), var( --bs-gradient-dark-left));
+    border: 1px solid transparent;
+    padding: 0.75rem 1.5rem;
+    font-size: 24px;
+    border-radius: 20px;
+    transition: all 0.15s ease-in;
+ 
+}
